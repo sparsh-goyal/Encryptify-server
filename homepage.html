@@ -3,7 +3,10 @@
   <body>
     <title>Encryptify</title>
     <h1>Encryptify</h1>
-    <h3>The decrypted image is as follows:</h3>
-    <img src=""></img>
+    <form action="/uploadDecryptedFile" method="POST">
+      <h3>The decrypted image is as follows:</h3>
+      <img id="decryptedImg" src=""></img>
+      <input type="submit" value="Click here to upload decrypted file"/>
+  </form>
   </body>
 </html>
